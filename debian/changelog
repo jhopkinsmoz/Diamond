@@ -1,3 +1,7 @@
+diamond (3.1.1) unstable; urgency=low
+  * local patch to limit network collector statistics; not for upstream
+ -- John Hopkins <jhopkins@mozilla.com>  Fri, 28 Feb 2014 10:38:00 -0500
+
 diamond (3.1.0) unstable; urgency=low
   * new upstream
  -- Rob Smith <kormoc@gmail.com>  Tue, 05 Nov 2012 15:19:00 -0800

@@ -109,6 +109,8 @@ class NetworkCollector(diamond.collector.Collector):
         for device in results:
             stats = results[device]
             for s, v in stats.items():
+                if s not in ['rx_bytes', 'tx_bytes']:
+                    continue
                 # Get Metric Name
                 metric_name = '.'.join([device, s])
                 # Get Metric Value
